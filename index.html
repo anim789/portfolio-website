@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Istiak — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="logo"><a href="index.html">Anim</a></h1>
+    <nav class="nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <h2>Hi, I’m Md Istiak — aspiring Information technology student</h2>
+      <p>I build small web projects while studying IT in Latrobe.</p>
+      <a class="btn" href="projects.html">See my work</a>
+    </section>
+
+    <section class="highlights">
+      <article>
+        <h3>Skills</h3>
+        <ul>
+          <li> web developement HTML, CSS,(basics)</li>
+          <li>Python, SQL (student level)</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Latest</h3>
+        <p>Portfolio for TCSE1IIT Assignment 2 deployed on Cloudflare Pages.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required minlength="2" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required minlength="10" placeholder="How can I help?"></textarea>
+
+        <button type="submit">Send</button>
+        <p class="form-note">This demo uses client-side validation only (no server).</p>
+      </form>
+    </section>
+
+    <nav class="social">
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.tiktok.com" target="_blank" rel="noopener">TikTok</a>
+    </nav>
+    <small>&copy; <span id="year"></span> Anim. All rights reserved.</small>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

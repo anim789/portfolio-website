@@ -1,0 +1,76 @@
+/* Basic reset and theme */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+a { text-decoration: none; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* Layout */
+.site-header, .site-footer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #eee;
+}
+.site-footer { border-top: 1px solid #eee; border-bottom: 0; flex-wrap: wrap; }
+
+.logo a { font-weight: 700; font-size: 1.25rem; }
+
+.nav a { margin-left: 1rem; }
+.nav a[aria-current="page"] { font-weight: 700; }
+
+main { padding: 1.25rem; }
+
+.hero {
+  padding: 6rem 1.25rem;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(0,0,0,0.03), rgba(0,0,0,0));
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+.hero .btn {
+  display: inline-block;
+  padding: .75rem 1rem;
+  border: 1px solid #222;
+  border-radius: 8px;
+  margin-top: .75rem;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 1px 0 rgba(0,0,0,.03);
+}
+
+/* Contact form */
+.contact form {
+  display: grid;
+  gap: .5rem;
+  max-width: 560px;
+}
+input, textarea, button {
+  padding: .75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font: inherit;
+}
+button { cursor: pointer; }
+.form-note { font-size: .9rem; color: #555; }
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .nav a { margin-left: .5rem; }
+}
