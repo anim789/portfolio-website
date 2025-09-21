@@ -1,24 +1,32 @@
-# Web Assessment Report
+# Portfolio Website Report
 
-**Name:**  
-**Student ID:**  
-**Subject Code:** TCSE1IIT
+*Name:* Md Istiak Huda
+*Student ID:* [770455]  
+*Subject:* TCSE1IIT - Web Development Assignment 2  
+
+---
 
 ## Design Choices
-Explain your layout choices (header, nav, main, footer), colour scheme, fonts, spacing, and responsive behaviour. Justify why these choices improve readability and navigation.
+- Used a modern blue color theme with gradient hero section.  
+- Navigation bar for Home, About, Projects, and Contact.  
+- Responsive design using CSS Grid and Flexbox.  
 
 ## Pages Included
-- Home (`index.html`): purpose and features
-- About (`about.html`): content summary
-- Projects (`projects.html`): content summary
-(Add any others you create.)
+1. *Home (index.html)* – Introduction and skills.  
+2. *About (about.html)* – Personal background, education, and interests.  
+3. *Projects (projects.html)* – Showcases portfolio website and practice work.  
+4. *Contact* – Contact form with client-side validation.
 
 ## Functionality
-List any enhancements beyond static HTML/CSS (e.g., JavaScript form validation, interactive elements). Explain what each does and why it helps usability.
+- Consistent navigation across all pages.  
+- Contact form uses JavaScript validation (basic client-side check).  
+- Social media footer links to LinkedIn, GitHub, Instagram, TikTok.
 
 ## Accessibility
-Note ARIA use, semantic tags, focus order, contrast, and keyboard navigation.
+- Semantic HTML (header, nav, main, section, footer).  
+- Clear text contrast and responsive layout.  
+- Navigation works with screen readers.
 
 ## Links
-- GitHub repository: <paste here>
-- Cloudflare Pages URL: <paste here>
+- GitHub Repository: [https://github.com/anim789]  
+- Live Deployment (Cloudflare Pages): [https://portfolio-website-412.pages.dev/]
